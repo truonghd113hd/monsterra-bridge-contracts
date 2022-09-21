@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_messageHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getEthSignedMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "transactionId_",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "token0_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "token1_",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "user0_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "user1_",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "getMessageHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "recoverSigner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "transactionId_",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "token0_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "token1_",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "user0_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "user1_",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lib/SignatureUtils.sol": "SignatureUtils"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lib/SignatureUtils.sol": {
+			"keccak256": "0xe27caba05142d6c60dc5d96cf04ff681301f059b9436977684fe16933b891bbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba3b33672493c28eab647ef5ea8f521c96d3dcdcf39a52426d5331f4a39af38d",
+				"dweb:/ipfs/QmWZketUEPy1v79uYqCJn6No7fqaUjoTBeuRyQnsV6usgi"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,263 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x615E791f5B31B63aEebd931c4d918e0e087B1760",
+      "txHash": "0xb64d32d65f80dad989109d985c8ad7951721a941f6a857650354df0286055684",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "a4d541c4965dd6f110028b244f70e2bd0cfcb01c9f51807e0afc98f4ac6f6997": {
+      "address": "0x32B557cf76e5ddb5d5858EDe7e52E697204A1029",
+      "txHash": "0xe8d01ea7f843ed5acd8f400b8594101e1ecb9b367399df96772eac2cdf88adb0",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "label": "swapDatas",
+            "offset": 0,
+            "slot": "251",
+            "type": "t_mapping(t_string_memory_ptr,t_struct(SwapData)2336_storage)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:37"
+          },
+          {
+            "label": "signer",
+            "offset": 0,
+            "slot": "252",
+            "type": "t_address",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:38"
+          },
+          {
+            "label": "acceptedTokens",
+            "offset": 0,
+            "slot": "253",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:39"
+          },
+          {
+            "label": "acceptedDesTokens",
+            "offset": 0,
+            "slot": "254",
+            "type": "t_mapping(t_string_memory_ptr,t_bool)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:40"
+          },
+          {
+            "label": "adminLists",
+            "offset": 0,
+            "slot": "255",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:41"
+          },
+          {
+            "label": "amountApprovers",
+            "offset": 0,
+            "slot": "256",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:43"
+          },
+          {
+            "label": "approvedTxs",
+            "offset": 0,
+            "slot": "257",
+            "type": "t_mapping(t_string_memory_ptr,t_bool)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:44"
+          },
+          {
+            "label": "maxSwapAmounts",
+            "offset": 0,
+            "slot": "258",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:46"
+          },
+          {
+            "label": "paused",
+            "offset": 0,
+            "slot": "259",
+            "type": "t_bool",
+            "contract": "Monsterra",
+            "src": "contracts/Monsterra.sol:47"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_bool)": {
+            "label": "mapping(string => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_string_memory_ptr,t_struct(SwapData)2336_storage)": {
+            "label": "mapping(string => struct SwapData)",
+            "numberOfBytes": "32"
+          },
+          "t_string_memory_ptr": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(SwapData)2336_storage": {
+            "label": "struct SwapData",
+            "members": [
+              {
+                "label": "curToken",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "desToken",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "curUser",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "desUser",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "signer",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "side",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

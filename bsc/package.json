@@ -1,0 +1,33 @@
+{
+  "name": "ekokraft-avax",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/hardhat-upgrades": "^1.6.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.26",
+    "hardhat": "^2.0.7"
+  },
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network bsc",
+    "deploy::mag": "npx hardhat run scripts/mocks/MAG.js --network bsc",
+    "deploy::mstr": "npx hardhat run scripts/mocks/MSTR.js --network bsc",
+    "setup::signer": "npx hardhat run scripts/setup/signer.js --network bsc",
+    "setup::token": "npx hardhat run scripts/setup/token.js --network bsc",
+    "verify::setup": "npx hardhat run scripts/setup/verify_setup.js --network bsc"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "hardhat-abi-exporter": "^2.2.0",
+    "openzeppelin-contracts": "^4.0.0",
+    "openzeppelin-solidity": "^3.4.2",
+    "web3": "^1.3.5"
+  }
+}

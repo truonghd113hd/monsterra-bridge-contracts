@@ -1,0 +1,1 @@
+f304adcff4f2f29e46977ddd59eee190e2a7584ab94851e441526c3a4ad5b0f6  ./target/wasm32-unknown-unknown/release/monstera_terra.wasm

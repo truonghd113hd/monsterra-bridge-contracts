@@ -1,0 +1,15 @@
+ekokraft-bsc/.openzeppelin
+ekokraft-bsc/artifacts
+ekokraft-bsc/cache
+ekokraft-bsc/node_modules
+ekokraft-bsc/.env
+
+ekokraft-avax/.env
+ekokraft-avax/artifacts
+ekokraft-avax/cache
+ekokraft-avax/.openzeppelin
+ekokraft-avax/node_modules
+
+monstera-terra
+
+**/node_modules

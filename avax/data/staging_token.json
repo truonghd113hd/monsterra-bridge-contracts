@@ -1,0 +1,18 @@
+{
+    "bsc": {
+        "MAG": "0x923a6fEC7f02F9330FbcE0249f90F555618549d0",
+        "MSTR": "0xF124213F70FDd58f794A1c5ff5fa17a24ce587a0"
+    },
+    "avax": {
+        "MAG": "0x3639df8b6039B6890Ffe1d13eFb2A6B93b41E62b",
+        "MSTR": "0x18b0b537525D4d6a4c10b63C44F567b776457da0"
+    },
+    "terra": {
+        "MAG": "terra1jjsgteelr9ezctdl5kelzufc7z2ntgta7gwy2djhrku3ru7ucv8qtx8tpq",
+        "MSTR": "terra12jax6mqgczmra0jce3kpaktcdglj86a5mzyfc64ydrutmukjjvus39nwej"
+    },
+    "okex": {
+        "MAG": "0x00b1071613D8fF7Dc15c97684Df250a1be52eD7D",
+        "MSTR": "0xC14Aba6A67fB2c8e9ece2d1A191fF17ba29E0D54"
+    }
+}
